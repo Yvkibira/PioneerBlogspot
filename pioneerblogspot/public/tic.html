@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="preload" href="resources/css/web.css" as="style">
+	<link rel="stylesheet" href="resources/css/web.css">
+     <!-- Google tag (gtag.js) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=G-7TJHKTM56Y"></script>
+ <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-7TJHKTM56Y');
+ </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2705647526062186"crossorigin="anonymous"></script>
+  <script src="resources/js/head.js"></script>  
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <meta name="keywords" content="tic,tac,Toe, TicTacToe  rules,online games,Noughts and Crosses,">
+ <meta name="description" content="This page has a simple tic tac toe game and  also  a list of TicTacToe rules."/>
+ <meta name="robots" content="index, follow">
+<meta property="og:title" content="tic-tac-toe">
+<meta property="og:site_name" content="Pioneerblogspot">
+<meta property="og:url" content="https://www.pioneerblogspot.co.ke/">
+<meta property="og:description" content="a TicTacToe game">
+<meta property="og:type" content="website">
+
+	<title>Pioneer Blogspot |Tic Tac Toe</title>
+	<style>
+	.marg { margin :10px;}
+		.containerg {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			width: 300px;
+			margin: 0 auto;
+		}
+
+		.box {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			box-sizing: border-box;
+			border: 1px solid black;
+			width: 100px;
+			height: 100px;
+			font-size: 48px;
+			cursor: pointer;
+		}
+		.box.player1 {
+			color: red;
+		}
+		.box.player2 {
+			color: blue;
+		}
+		#game-container {
+	margin: 0 auto; /* Centers the container horizontally */
+	width: 300px; /* Sets the width of the container */
+	text-align: center; /* Centers the game board within the container */
+}
+
+#code-container {
+	margin: 20px auto; /* Adds space between the game and code containers */
+	width: 300px; /* Sets the width of the container */
+	text-align: center; /* Centers the code within the container */
+}
+
+	</style>
+</head>
+<body>
+    <header id="header"></header>
+<script src="/resources/js/header.js"></script>
+   <div class="marg"> 
+	<div class="containerg">
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+	</div>
+	<div id="code-container">
+<!--  -->		<button id="restart-button">Restart</button>
+		
+	</div>
+		<h1> Tic-Tac-Toe</h1>
+	<br>
+	<b style="background-color:red"> player1:red / X	</b><br><br>
+	<b style="background-color:blue"> player2 :blue / O</b>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+<article class="spc">
+<h2>here are the basic rules for playing Tic Tac Toe:</h2>
+<br>
+1. The game is played on a 3x3 grid. <br>
+<br>
+2. There are two players in the game, X and O. X goes first. <br>
+<br>
+3. Players take turns placing their mark (X or O) on an empty square of the grid.<br>
+<br> 
+4. The game ends when one player has three of their marks in a row (horizontally, vertically, or diagonally) or when all squares are filled without either player achieving three in a row. 
+5. If a player gets three of their marks in a row, they win the game. <br>
+<br>
+6. If all squares are filled and no player has three in a row, the game is a draw.<br>
+<br> 
+7. Players cannot play on a square that has already been marked.<br>
+<br> 
+8. The game is over as soon as a player wins or the game is declared a draw.<br>
+<br> 
+9. Players can choose to play multiple games in a row, alternating who goes first.<br>
+<br> 
+
+These are the basic rules for playing Tic Tac Toe. Good luck and have fun!<br>
+<br>
+</article>
+	<script>const boxes = document.querySelectorAll(".box");
+let currentPlayer = 1;
+let winner = false;
+
+const checkForWinner = () => {
+	// Check rows
+	for (let i = 0; i < 9; i += 3) {
+		if (boxes[i].textContent !== "" && boxes[i].textContent === boxes[i+1].textContent && boxes[i].textContent === boxes[i+2].textContent) {
+			boxes[i].classList.add("winner");
+			boxes[i+1].classList.add("winner");
+			boxes[i+2].classList.add("winner");
+			return boxes[i].textContent;
+		}
+	}
+
+	// Check columns
+	for (let i = 0; i < 3; i++) {
+		if (boxes[i].textContent !== "" && boxes[i].textContent === boxes[i+3].textContent && boxes[i].textContent === boxes[i+6].textContent) {
+			boxes[i].classList.add("winner");
+			boxes[i+3].classList.add("winner");
+			boxes[i+6].classList.add("winner");
+			return boxes[i].textContent;
+		}
+	}
+
+	// Check diagonals
+	if (boxes[0].textContent !== "" && boxes[0].textContent === boxes[4].textContent && boxes[0].textContent === boxes[8].textContent) {
+		boxes[0].classList.add("winner");
+		boxes[4].classList.add("winner");
+		boxes[8].classList.add("winner");
+		return boxes[0].textContent;
+	}
+
+	if (boxes[2].textContent !== "" && boxes[2].textContent === boxes[4].textContent && boxes[2].textContent === boxes[6].textContent) {
+		boxes[2].classList.add("winner");
+		boxes[4].classList.add("winner");
+		boxes[6].classList.add("winner");
+		return boxes[2].textContent;
+	}
+
+	return false;
+};
+
+const restartGame = () => {
+	boxes.forEach(box => {
+		box.textContent = "";
+		box.classList.remove("winner", "player1", "player2");
+	});
+	currentPlayer = 1;
+	winner = false;
+};
+
+boxes.forEach(box => {
+	box.addEventListener("click", () => {
+		if (!winner && box.textContent === "") {
+			box.textContent = currentPlayer === 1 ? "X" : "O";
+			box.classList.add(currentPlayer === 1 ? "player1" : "player2");
+			currentPlayer = currentPlayer === 1 ? 2 : 1;
+			const result = checkForWinner();
+			if (result) {
+				alert(`Player ${result} wins!`);
+				winner = true;
+			}
+		}
+	});
+});// Select the existing "Restart" button element by ID
+const restartButton = document.getElementById("restart-button");
+
+// Add event listener to the restart button
+restartButton.addEventListener("click", restartGame);
+
+
+
+</script>
+<section id="footer-section"></section>
+<script src="resources/js/web.js"></script>
+</body>
+</html>

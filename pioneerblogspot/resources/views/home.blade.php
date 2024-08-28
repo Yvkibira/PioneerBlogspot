@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preload" href="resources/css/web.css" as="style">
+    <link rel="stylesheet" href="resources/css/web.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7TJHKTM56Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-7TJHKTM56Y');
+    </script>
+    <script src="resources/js/head.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="pioneer blogspot,latest blogs,fashionblogs,farmingblogs,financeblogs,personal opinions blogs.">
+    <meta name="description" content="farming, fashion, opinions, and finance blogs.">
+    <meta property="og:title" content="Pioneer Blogspot">
+    <meta property="og:site_name" content="Pioneerblogspot">
+    <meta property="og:url" content="https://www.pioneerblogspot.co.ke/">
+    <meta property="og:description" content="farming, fashion, opinions, and finance blogs.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.pioneerblogspot.co.ke/resources/img/image.webp">
+    <link rel="sitemap" type="application/xml" href="resources/sitemap/sitemap.xml">
+    <title>Pioneer Blogspot | Home</title>
+</head>
+
+<body>
+    <header id="header"></header>
+    <script src="/resources/js/header.js"></script>
+    <main>
+        <section class="showcase">
+            <p class="big">Explore</p>
+            <div class="slideshow">
+                <span class="slide"><a href="fashionblogs.html">Fashion blogs</a></span>
+                <span class="slide"><a href="farming.html">Farming Blogs</a></span>
+                <span class="slide"><a href="opinions.html">Opinion Blogs</a></span>
+                <span class="slide"><a href="finance.html">Finance blogs</a></span>
+            </div>
+        </section>
+        <style>
+            .desktop {
+                display: block;
+                position: absolute;
+                width: 160px;
+                height: 600px;
+            }
+
+            .l-ad {
+                left: 20px;
+            }
+
+            .r-ad {
+                right: 20px;
+            }
+
+            @media (max-width:1024px) {
+                .desktop {
+                    display: none;
+                }
+            }
+
+            @media (max-width: 1024px) {
+                section#r-ad {
+                    display: block;
+                    position: relative;
+                    max-height: 300px;
+                    height: 300px;
+                    width: 100%;
+                }
+            }
+        </style>
+        <section class="desktop l-ad" id="l-ad">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2705647526062186"
+                crossorigin="anonymous"></script>
+            <!-- vertical -->
+            <ins class="adsbygoogle"
+                style="display:inline-block;width:160px;height:600px"
+                data-ad-client="ca-pub-2705647526062186"
+                data-ad-slot="1710327054"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+        <section class="desktop r-ad" id="r-ad">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2705647526062186"
+                crossorigin="anonymous"></script>
+            <!-- main-right -->
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-2705647526062186"
+                data-ad-slot="4964873877"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+        <section id="latest-section" class="latest-section">
+            <h1 class="latest top">Latest Blogs</h1>
+            <div class="lblogs lnone nimg top"><a href="https://www.pioneerblogspot.co.ke/best-resources-to-learn-php.html">Best resources to learn php</a></div>
+            <p class="bottom lnone">- November 12, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/mysql-crashed-solution.html">Solution to Mysql crashed Unexpectedly</a></div>
+            <p class="bottom lnone">- November 12, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/common-android-studio-issues.html">Common Android Studio Issues Solved</a></div>
+            <p class="bottom lnone">- November 11, 2023</p>
+        </section>
+        <section id="jobs-section" class="jobs-section">
+            <h2 class="latest top"><a href="jobs.html" target="_blank" title="JOb Blogs" rel="noopener noreferrer">Jobs</a></h2>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/side-hustles-for-students.html">Side Hustles for students in kenya</a></div>
+            <p class="bottom lnone">- may 31, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/affiliate-marketing-in-kenya.html">A guide to affiliate marketing in Kenya</a></div>
+            <p class="bottom lnone">- may 31, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/delivery-jobs-for-students.html">Student Delivery jobs for students</a></div>
+            <p class="bottom lnone">- may 14, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/how-to-apply-for-a-job-at-quickmart-kenya.html">How to apply for a job at Quickmart</a></div>
+            <p class="bottom lnone">- may 1, 2023</p>
+        </section>
+        <section class="webdev-section" id="webdev-section"><br>
+            <h2 class="latest top"><a href="websites.html" title="Website development Blogs" target="_blank" rel="noopener noreferrer">Start your own website</a></h2>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/3-ways-to-make-your-own-website-2-are-free.html">3 ways to make a website 2 are completely free</a></div>
+            <p class="bottom lnone">- August 1, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/5-mistakes-i-did-when-starting-a-blog.html"> 5 mistakes i did when starting a blog</a></div>
+            <p class="bottom lnone">- August 1, 2023</p>
+            <div class="lblogs lnone nimg"><a href="https://www.pioneerblogspot.co.ke/tips-to-optimize-your-website.html">What to do next after uploading your website</a></div>
+            <p class="bottom lnone">- april 22, 2023</p>
+            <div class="lblogs lnone">
+                <img src="resources/img/pinnacle.webp" alt="HostPinnacle logo" title="this link takes you to a blog  on Connecting Hostpinnacle custom domain to Github"><a href="https://www.pioneerblogspot.co.ke/connect-hostpinnacle-custom-domain-to-github.html">Connecting Hostpinnacle custom domain to Github</a>
+            </div>
+            <p class="bottom lnone">- april 28, 2023</p> <br><br>
+        </section>
+        <!--    <section id="technology-section" class="technology-section">
+    <h2 class="latest top"><a href="technology.html">Technology</a></h2>
+
+   </section> -->
+
+        <section id="utility-services-section" class="utility-services-section">
+            <h2 class="latest top"><a href="services.html" target="_blank" title="Utility & Services Blogs" rel="noopener noreferrer">Utility And Services</a></h2>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/kplc-delayed-tokens.html">Get delayed token numbers from kplc</a></div>
+            <p class="bottom lnone">- June 27, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/zuku-paybill-number-internet-packages.html">Zuku internet packages and paybill number</a></div>
+            <p class="bottom lnone">- may 9, 2023</p>
+            <div class="lblogs lnone">
+                <img src="resources/img/Zuku.jpg" alt="Zuku logo"><a href="https://www.pioneerblogspot.co.ke/fastest-way-to-contact-zuku.html">Fastest way to contact zuku fiber</a>
+            </div>
+            <p class="bottom lnone">- april 21, 2023</p>
+
+        </section>
+        <section class="desktop l-ad" id="l-ad">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2705647526062186"
+                crossorigin="anonymous"></script>
+            <!-- vertical -->
+            <ins class="adsbygoogle"
+                style="display:inline-block;width:160px;height:600px"
+                data-ad-client="ca-pub-2705647526062186"
+                data-ad-slot="1710327054"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+        <section class="desktop r-ad" id="r-ad">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2705647526062186"
+                crossorigin="anonymous"></script>
+            <!-- main-right -->
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-2705647526062186"
+                data-ad-slot="4964873877"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+        <section id="health-section" class="health-section">
+            <h2 class="latest top"><a href="health.html" target="_blank" title="Health Blogs" rel="noopener noreferrer">Health</a></h2>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/5-minute-guide-on-nhif.html">5 minute guide on everything you need to know about NHIF</a></div>
+            <p class="bottom lnone">- July 5, 2023</p>
+        </section>
+        <section id="wellness-section" class="wellness-section">
+            <h2 class="latest top"><a href="wellness.html" target="_blank" title="Wellness Blogs" rel="noopener noreferrer">wellness</a></h2>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/benefits-of-social-media-detox.html">Detoxing from social media</a></div>
+            <p class="bottom lnone">- June 14, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/why-you-should-journal.html">Why you should Journal</a></div>
+            <p class="bottom lnone">- June 3, 2023</p>
+        </section>
+        <section id="life-section" class="life-section">
+            <h2 class="latest top"><a href="life.html" target="_blank" title="Life Blogs" rel="noopener noreferrer">Life</a></h2>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/problems-students-face-in-university.html">Problems students face in university</a></div>
+            <p class="bottom lnone">- June 8, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/things-to-avoid-in-university.html">Common Pitfalls in university and How to Navigate Them</a></div>
+            <p class="bottom lnone">- may 24, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/students-dilemmas-in-saving-and-budjeting.html">The hurdles of saving and budgeting of a student</a></div>
+            <p class="bottom lnone">- may 14, 2023</p>
+        </section>
+        <section id="safety-section" class="safety-section">
+            <h2 class="latest top"><a href="safety.html" target="_blank" title="Safety Blogs" rel="noopener noreferrer">Safety</a></h2>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/scams-in-kenya.html">Scams in Kenya</a></div>
+            <p class="bottom lnone">- June 8, 2023</p>
+        </section>
+        <!--  <section id="finance-section" class="finance-section">
+    <h2 class="latest top"><a href="finance.html" target="_blank" title="Finance Blogs" rel="noopener noreferrer">Finances</a></h2>
+    <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/dividend-paying-stocks-in-kenya.html">Dividend paying stocks in kenya</a></div><p class="bottom lnone" >- may 24, 2023</p> 
+    <div class="lblogs lnone nimg"><a href="https://www.pioneerblogspot.co.ke/why-cooperative-bank-is-the-best-for-students.html">why Coop-Bank is the best bank for students</a></div><p class="bottom lnone" >- april 21, 2023</p> 
+    <div class="lblogs lnone bot">
+     <img src="mpesa.webp" alt="mali by Safaricom "><a href="https://www.pioneerblogspot.co.ke/mali-by-safaricom-the-best-investment-platform-students.html">Mali A Student friendly investment platform by Safaricom</a></div><p class="bottom lnone" >- april 17, 2023</p> 
+ </section> -->
+
+        <section class="desktop l-ad" id="l-ad">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2705647526062186"
+                crossorigin="anonymous"></script>
+            <!-- vertical -->
+            <ins class="adsbygoogle"
+                style="display:inline-block;width:160px;height:600px"
+                data-ad-client="ca-pub-2705647526062186"
+                data-ad-slot="1710327054"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+        <section class="desktop r-ad" id="r-ad">
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2705647526062186"
+                crossorigin="anonymous"></script>
+            <!-- main-right -->
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-2705647526062186"
+                data-ad-slot="4964873877"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </section>
+        <section id="politics-section" class="politics-section">
+            <h2 class="latest top"><a href="politics.html" target="_blank" title="Politics Blogs" rel="noopener noreferrer">Politics</a></h2>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/how-to-join-a-political-party-in-kenya.html">How to join a political party in kenya</a></div>
+            <p class="bottom lnone">- may 24, 2023</p>
+        </section>
+        <section id="education-section" class="education-section">
+            <h2 class="latest top"><a href="education.html" title="Education Blogs" target="_blank" rel="noopener noreferrer">Education</a></h2>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/courses-and-specializations-in-pioneer-international-university.html">List of courses and specializations in pioneer international university</a></div>
+            <p class="bottom lnone">- may 19, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/how-to-access-timetable-and-fee-structure-on-email.html">how to access PIU fee structure and timetable on outlook</a></div>
+            <p class="bottom lnone">- may 17, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/how-to-recover-school-email-password.html">how to reset PIU school email password for Microsoft</a></div>
+            <p class="bottom lnone">- may 17, 2023</p>
+            <div class="lblogs lnone nimg"><a href="https://www.pioneerblogspot.co.ke/how-to-pay-pionner-international-university-fees.html">How to pay school fees for Pioneer International University via mpesa</a></div>
+            <p class="bottom lnone">- april 21, 2023</p>
+        </section>
+        <section id="travel-section" class="travel-section"><br>
+            <h2 class="latest top"><a href="travel.html" target="_blank" title="Travel Blogs" rel="noopener noreferrer">Travel</a></h2>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/2nk-sacco-Nyeri-to-Nairobi.html">Travel from Nyeri to Nairobi</a></div>
+            <p class="bottom lnone">- November 12, 2023</p>
+            <div class="lblogs lnone nimg top "><a href="https://www.pioneerblogspot.co.ke/budget-friendly-places-to-visit-in-nairobi.html">Budget Friendly Fun in Nairobi</a></div>
+            <p class="bottom lnone">- may 8, 2023</p> <br><br>
+        </section>
+        <section id="bookreview-section" class="bookreview-section"><br>
+            <h2 class="latest top"><a href="book-reviews.html" target="_blank" title="Book Review Blogs" rel="noopener noreferrer">Book reviews</a></h2>
+            <div class="lblogs lnone nimg top"><a href="https://www.pioneerblogspot.co.ke/nothing-lasts-forever-review.html">Nothing LastsForever -Sydney Sheldon</a></div>
+            <p class="bottom lnone">- may 24, 2023</p>
+            <div class="lblogs lnone nimg top"><a href="https://www.pioneerblogspot.co.ke/mondays-gone-book-review.html">Monday's Gone - Nicci French </a></div>
+            <p class="bottom lnone">- June 27, 2023</p><br><br>
+        </section>
+    </main>
+    <section id="footer-section"></section>
+    <script src="resources/js/web.js"></script>
+    <script src="resources/js/slide-showcase.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+*{padding:0rem;margin:0rem;} body{background:white;color:black;Text-align:center;font-family:monospace;line-height:1.5;}
+html{scroll-behavior: smooth;}
+     /* Header */
+header{border-bottom:3px solid pink;box-shadow:0.3125rem 0.0625rem 0.625rem black;padding:0.625rem;overflow:hidden;background-color:#a9a9a9;position:fixed;top:0;width:100%;z-index:2}
+nav a{text-decoration:none;font-family:cursive;color:white;}
+header ul li{ display :inline;color:white;}
+    /* hamburger menu*/
+button:hover {background: grey;}
+.hidden {display: none;}
+.hamburger i.material-icons {color: white;font-size: 2rem;}
+button#toggle-button {background: #a9a9a9;border: none;outline: none;}
+.hamburger {display: inline-block;cursor: pointer;padding: 0.625rem 0.9375rem;}
+.hamburger span {display: block;height: 3px;width: 25px;margin-bottom: 5px;position: relative;background: black;border-radius: 3px;z-index: 1;}
+.container {display: flex;align-items: center;}
+img {max-width:40rem;width:60%;height:auto;}
+.h-buttons{display:block;position: absolute;right: 0;background:#a9a9a9;margin-right: 30px;}
+.h-buttons img{width: 1.75rem;margin-right: 0.3125rem;height: auto;border: none;padding: 0px;border-radius: 0px;background: #a9a9a9;}
+.h-buttons button{background:#a9a9a9;border: none;}
+.h-buttons button img:hover{opacity: 0.3;}
+@media screen  and (max-width: 575px){.h-buttons{ display: none;}}
+.category a{color: #21c0f5;}
+.showcase {background: white;font-family: cursive;width: 100%;padding-bottom: 2.5rem;}
+h1.latest.top,h2.latest.top{box-shadow: unset;background: unset;font-weight: bold;font-family: cursive;}
+h2.latest.top{cursor: pointer;}
+.lblogs {padding: 1.25rem;border-top: 1px solid black;display: flex;align-items: center;}
+.lnone {padding: 0rem;}
+.lblogs a {text-align: left;text-decoration: none;color: black;font-weight: bold;}
+.lblogs img {width: 4.6875rem;height: 4.0625rem;padding: 0.625rem;}
+.bottom {border-bottom: 1px solid black;font-family: cursive;text-align: right;margin-right: 0.625rem;}
+.content {display: flex;flex-direction: column;}
+.big {font-size: 1.875rem;}
+.latest:hover{margin:0 auto;;font-size: 0.875rem;margin-bottom:10px;padding-bottom: 0.625rem;}
+.logo {font-family: cursive;}
+.log {text-decoration: none;color: white;font-size: 1.5625rem;font-weight: bold;}
+.log1 {font-size: 2.5rem;}
+h2 {padding: 0.625rem;}
+.spc {text-align: left;padding: 0.625rem;}   
+   /*  Add margin for desktop devices  */
+@media only screen and (min-width: 1024px) {body {max-width: 100%;max-height: 100%;}main{margin: 0 12.5rem; }}
+table{border: 1px solid white;Text-align:center;border-collapse:collapse;width: 100%;}
+th{border-bottom: 1px solid white;Text-align:center;}
+td{border: 1px solid white;}
+.op{border-left:1px solid white;}
+#myDiv{display: none;}
+.farma a{text-decoration:none;color: black;}
+.call{padding:0px 5px;}
+.farma{position: relative;bottom:80px;}
+.data{background-color: green;padding:10px 50px;border-radius:30px;}
+.data a{text-decoration :none;}
+footer{background-color:#eee;border-top:3px solid  black;}
+footer p{margin: 10px;}
+.links a{ text-decoration:none;color:purple;display :inline;}
+.flinks {display: inline;vertical-align: top;text-align:center;}
+.flinks ul{list-style: none;margin: 0;padding: 0;}
+.flinks li {margin: 0;padding: 0;}
+.flinks a {text-decoration:none;color:#333;text-align:center;width: 3.4375rem;box-shadow: 0.3125rem 0.0625rem 0.625rem black;}
+.one a {padding: 0.625rem;margin: 1.25rem;}
+.two a {padding: 0.625rem;margin: 1.25rem;}
+.three a {padding: 0.625rem;margin: 1.25rem;}
+.one {padding: 0.625rem;margin: 0.625rem;}
+.two {padding: 0.625rem;margin: 1.25rem;}
+.three {padding: 0.625rem;margin: 1.25rem;}
+.bot {padding :10px ;border-bottom: 1px solid black;margin: 0px 0.625rem;}
+main {padding-top: 6.25rem;}
+main a {font-weight: bold;color: black;}
+main li {margin-left: 2rem;}
+@media only screen and (max-width: 350px) {.one a {padding: 0.3125rem;margin: 0.625rem;}.two a {padding: 0.3125rem;margin: 0.625rem;}.three a {padding: 0.625rem;margin:1.25rem;}}
+.related{border-bottom:2px solid pink;border-top:2px solid pink;}
+a:hover {text-decoration: none;outline: 0 none;color: #21c0f5;}
+footer a {text-decoration:none;color:black;}
+.desktop-ad{display:block;position:absolute;width:160px;height:600px;left:20px;margin-top:153px;}
+@media (max-width:1080px){.desktop-ad{display: none;}}
+ins.adsbygoogle[data-ad-status="unfilled"]{display:none !important;}
+.wth{display:flex;gap:20px;padding:20px;width:100%;align-items:center;}
