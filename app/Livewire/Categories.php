@@ -10,7 +10,7 @@ class Categories extends Component
     public function render()
     {
 
-        $categories = Category::where('active', true)->get();
+        $categories = Category::all();
 
         return view('livewire.categories', compact('categories'));
     }
