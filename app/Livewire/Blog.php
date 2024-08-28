@@ -9,9 +9,7 @@ class Blog extends Component
 {
     public function render()
     {
-
-     $posts=Post::paginate(6);
-
-        return view('livewire.blog',compact('posts'));
+        $posts = Post::where('active', true)->paginate(6);
+        return view('livewire.blog', compact('posts'));
     }
 }
