@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('title', 'Blog - ' . $post->title)
 @section('headContent')
+@if ($post->active == true)
+<x-google-tags />
+@endif
 <meta name="keywords" content="{{ implode(', ', $post['keywords']) }}">
 <meta name="description" content="{{$post->shortBody()}}" />
 <meta name="robots" content="index, follow">
