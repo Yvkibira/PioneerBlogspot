@@ -27,7 +27,7 @@
 @endsection
 @section('content')
 
-<article>
+<!-- <article class="row gap-1">
     <div class="container-fluid">
         <div class="row">
             <div class="col">
@@ -42,6 +42,31 @@
             </div>
         </div>
     </div>
+</article> -->
+    <article class="row gap-1">
+  <div class="col-left"></div>
+  <div class="col-center">
+    <div class="card">
+      <img
+        src="{{ asset('storage/' . $post->thumbnail) }}"
+        class="card-img-top"
+        alt="{{ $post->title }}"
+      />
+      <div class="card-body">
+        <h5 class="card-title" style="text-transform: capitalize">
+          {{ $post->title }}
+        </h5>
+        <p class="card-text">
+          <small class="text-muted"
+            >Published on {{ $post->published_at->format('F j, Y') }}</small
+          >
+        </p>
+        <p class="card-text">{!!html_entity_decode( $post->body)!!}</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-right"></div>
 </article>
+
 
 @endsection
