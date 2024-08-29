@@ -21,7 +21,7 @@
 
 <body>
   @include('components.header')
-  <main class="mt-5">
+  <main class="mt-5 container-fluid">
     @yield('content')
   </main>
   @include('components.footer')
