@@ -43,6 +43,28 @@
         </div>
     </div>
 </article> -->
+        <style>
+      .col-left,
+      .col-right {
+        width: 160px;
+      }
+
+      .col-center {
+        flex: 1;
+      }
+
+      /* Media query for screens smaller than 1200px */
+      @media (max-width: 1199.98px) {
+        .col-left,
+        .col-right {
+          display: none;
+        }
+
+        .col-center {
+          width: 100%;
+        }
+      }
+    </style>
     <article class="row gap-1">
   <div class="col-left"></div>
   <div class="col-center">
